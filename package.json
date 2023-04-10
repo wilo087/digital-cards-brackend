@@ -1,0 +1,9 @@
+{
+  "name": "digital-card-backend",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/wilo087/digital-cards-brackend",
+  "author": "Wilowayne De La Cruz",
+  "license": "MIT",
+  "private": true
+}
