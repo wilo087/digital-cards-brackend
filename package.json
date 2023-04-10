@@ -5,5 +5,18 @@
   "repository": "https://github.com/wilo087/digital-cards-brackend",
   "author": "Wilowayne De La Cruz",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "yarn compile && node ./dist/index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "4.6.0",
+    "graphql": "16.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "typescript": "5.0.4"
+  }
 }
