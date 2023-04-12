@@ -9,7 +9,8 @@
   "type": "module",
   "scripts": {
     "compile": "tsc",
-    "start": "yarn compile && node ./dist/index.js"
+    "start": "yarn compile && node ./dist/index.js",
+    "dev": "nodemon ./dist/index.js"
   },
   "dependencies": {
     "@apollo/server": "4.6.0",
@@ -17,6 +18,17 @@
   },
   "devDependencies": {
     "@types/node": "18.15.11",
-    "typescript": "5.0.4"
+    "eslint": "8.38.0",
+    "eslint-plugin-n": "^15.7.0",
+    "nodemon": "2.0.22",
+    "ts-standard": "^12.0.2",
+    "standard": "17.0.0",
+    "typescript": "5.0.4",
+    "@typescript-eslint/eslint-plugin": "5.57.1",
+    "@typescript-eslint/parser": "5.57.1",
+    "eslint-plugin-promise": "6.1.1"
+  },
+  "ts-standard": {
+    "eslint": "./node_modules/ts-standard/eslintrc.json"
   }
 }
